@@ -10,6 +10,8 @@ Implementations of **Actor-Critic** and **REINFORCE with Baseline** reinforcemen
 
 ![Cartpole RL](https://raw.githubusercontent.com/GirmaSis/cartpole-policy-gradient-rl/main/Figure_1.png)
 
+<img src="https://raw.githubusercontent.com/GirmaSis/cartpole-policy-gradient-rl/main/Figure_2.png" width="300">
+
 
 ## 🏆 Why This Project is Unique
 - **📈 Two core RL algorithms in one** → Learn **Actor-Critic vs. REINFORCE with Baseline**.
