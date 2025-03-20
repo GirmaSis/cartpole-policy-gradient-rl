@@ -13,8 +13,8 @@ Implementations of **Actor-Critic** and **REINFORCE with Baseline** reinforcemen
   <img src="https://raw.githubusercontent.com/GirmaSis/cartpole-policy-gradient-rl/main/Figure_2.png" width="45%" />
 </p>
 <p align="center">
-  <img src="https://github.com/GirmaSis/cartpole-policy-gradient-rl/blob/main/gifs_actor_critic/cartpole_episode_80.gif" width="50%" />
-  <img src="https://raw.githubusercontent.com/GirmaSis/cartpole-policy-gradient-rl/main/gifs_REINFORCE/cartpole_episode_90.gif" width="50%" />
+  <img src="https://github.com/GirmaSis/cartpole-policy-gradient-rl/blob/main/gifs_actor_critic/cartpole_episode_80.gif" width="45%" />
+  <img src="https://raw.githubusercontent.com/GirmaSis/cartpole-policy-gradient-rl/main/gifs_REINFORCE/cartpole_episode_90.gif" width="45%" />
 
 </p>
 
