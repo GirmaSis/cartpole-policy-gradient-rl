@@ -8,9 +8,10 @@ Implementations of **Actor-Critic** and **REINFORCE with Baseline** reinforcemen
 - Optimize **policy learning stability** through **advantage estimation and baseline functions**.
 - **Analyze performance** using training reward curves and **visualize training progress with GIFs**.
 
-![Cartpole RL](https://raw.githubusercontent.com/GirmaSis/cartpole-policy-gradient-rl/main/Figure_1.png)
-
-<img src="https://raw.githubusercontent.com/GirmaSis/cartpole-policy-gradient-rl/main/Figure_2.png" width="300">
+<p align="center">
+  <img src="https://raw.githubusercontent.com/GirmaSis/cartpole-policy-gradient-rl/main/Figure_1.png" width="45%" />
+  <img src="https://raw.githubusercontent.com/GirmaSis/cartpole-policy-gradient-rl/main/Figure_2.png" width="45%" />
+</p>
 
 
 ## 🏆 Why This Project is Unique
