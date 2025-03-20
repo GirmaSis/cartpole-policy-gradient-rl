@@ -1,8 +1,9 @@
 # Advanced policy gradient RL for CartPole
 
-Implementations of **Actor-Critic** and **REINFORCE with Baseline** reinforcement learning algorithms to solve the **CartPole-v1** environment using **PyTorch**. It demonstrates advanced **policy optimization techniques** and provides **visual analysis** of training performance.
+- Implementations of **Actor-Critic** and **REINFORCE with Baseline** reinforcement learning algorithms to solve the **CartPole-v1** environment using **PyTorch**. 
+- It demonstrates advanced **policy optimization techniques** and provides **visual analysis** of training performance.
 
-## Objectives
+### Objectives
 - Implement and compare **Actor-Critic** and **REINFORCE with Baseline** for **policy gradient reinforcement learning**
 - Train an agent to **balance a pole** on a moving cart efficiently
 - Optimize **policy learning stability** through **advantage estimation and baseline functions**

@@ -17,7 +17,7 @@ from torch.distributions import Categorical
 import gym
 
 # Create GIFs folder if not exists
-os.makedirs("gifs", exist_ok=True)
+os.makedirs("gifs_actor_critic", exist_ok=True)
 
 # Argument parser to set hyperparameters
 parser = argparse.ArgumentParser(description='Optimized PyTorch Actor-Critic for CartPole')
@@ -95,7 +95,7 @@ def finish_episode():
     del model.saved_actions[:]
 
 def modify_pole_color(frame):
-    """ Changes the color of the pole to red while keeping the rest unchanged """
+    """ Changes the color of the pole to red """
     hsv = cv2.cvtColor(frame, cv2.COLOR_RGB2HSV)
     lower_black = np.array([0, 0, 0])
     upper_black = np.array([180, 255, 50])
@@ -105,7 +105,7 @@ def modify_pole_color(frame):
 
 def save_gif(frames, episode):
     """ Saves the episode as a GIF """
-    imageio.mimsave(f'gifs/cartpole_episode_{episode}.gif', frames, fps=30)
+    imageio.mimsave(f'gifs_actor_critic/cartpole_episode_{episode}.gif', frames, fps=30)
 
 def main():
     running_reward = 10
